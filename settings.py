@@ -7,7 +7,7 @@ model_path = "llama2_7b_chat_uncensored.Q5_K_M.gguf"
 # Default for most Llama models is 2048
 # It must be enough to account for question/prompt and response
 
-n_ctx = 2048
+n_ctx = 4096
 
 
 # If GPU support is enabled ('BLAS = 1'), adjust the values below based on your model and available VRAM
